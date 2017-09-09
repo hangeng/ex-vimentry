@@ -99,7 +99,7 @@ function vimentry#write_default_template()
                 \ s:write_default( "custom_tags_file" , "", "" ),
                 \ "",
                 \ "-- ex-cscope Options:",
-                \ s:write_default( "enable_cscope", "false", "{ true, false }" ),
+                \ s:write_default( "enable_cscope", "true", "{ true, false }" ),
                 \ "",
                 \ "-- ex-macrohl Options:",
                 \ s:write_default( "enable_macrohl", "false", "{ true, false }" ),
