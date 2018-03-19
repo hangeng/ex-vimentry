@@ -72,7 +72,7 @@ function vimentry#write_default_template()
                 \ "-- File And Folder Filters:",
                 \ s:write_default( "folder_filter_mode", "include", "{ include, exclude }" ),
                 \ s:write_default( "folder_filter", [], "" ),
-                \ s:write_default( "file_filter", ["h,hxx,H,hpp,c,cxx,py,json"], "" ),
+                \ s:write_default( "file_filter", ["h,hxx,H,hpp,c,cxx,py,json,cpp,asm,sh"], "" ),
                 \ s:write_default( "file_ignore_pattern", [], "" ),
                 \ "",
                 \ "-- Editing:",
